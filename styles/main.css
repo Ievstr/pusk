@@ -739,7 +739,7 @@ input[type=number] {
 
 .slider-button-prev.swiper-button-disabled,
 .slider-button-next.swiper-button-disabled {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .slider-button-prev.swiper-button-lock,
@@ -2191,6 +2191,10 @@ input[type=number] {
     font-size: 24px;
   }
 
+  .hero__title {
+    font-size: 27px;
+  }
+
   .hero__subtitle {
     font-size: 17px;
   }
@@ -2439,6 +2443,10 @@ input[type=number] {
 }
 
 @media (max-width: 374px) {
+  .hero__title {
+    font-size: 24px;
+  }
+
   .feature__item-title {
     min-height: 61px;
   }
