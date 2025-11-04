@@ -611,6 +611,10 @@ input[type=number] {
   transition: all 0.3s;
 }
 
+.nav__link_active {
+  color: #9AD804;
+}
+
 .button {
   display: inline-flex;
   justify-content: center;
@@ -911,6 +915,7 @@ input[type=number] {
 
 .hero__img {
   position: absolute;
+  top: 140px;
   bottom: 0;
   left: 712px;
   width: 654px;
@@ -922,6 +927,7 @@ input[type=number] {
 .hero__img img {
   height: 100%;
   object-fit: contain;
+  object-position: bottom;
 }
 
 .ticker {
@@ -1865,6 +1871,7 @@ input[type=number] {
   }
 
   .hero__img {
+    top: 100px;
     left: 49.5vw;
     width: 425px;
   }
@@ -2204,6 +2211,7 @@ input[type=number] {
   }
 
   .hero__img {
+    top: auto;
     left: 65%;
     transform: translateX(-50%);
   }
